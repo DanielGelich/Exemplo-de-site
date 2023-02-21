@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+    <head>
+        <title> button </title>
+        <meta charset="UTF-8">
+
+    </head>
+
+    <body>
+        
+        <p>Clique no botão para mostrar ou esconder a DIV</p>
+        
+        <button onclick="myFunction()">Mostrar ou Esconder</button>
+        
+        <div id="myDIV">Conteúdo da DIV</div>
+
+        <p><b>Obs:</b>Note que o elemento (DIV) "some" e a tela é reoganizada.</p>
+
+        <script>
+
+            function myFunction() {
+                var x= document.getElementById("myDIV");
+                if (x.style.display == "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                   
+                }
+            }
+        
+        </script>
+
+    </body>
+
+</html>

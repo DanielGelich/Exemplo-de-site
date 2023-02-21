@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/styleF.css" media="screen"/>
+
+        <title> Exemplo De Site </title>
+
+        <meta charset="UTF-8">
+
+    </head>
+
+    <body>
+       
+        <div class="cabeçalho2">
+            <a target="_blank"><img width="10%" height="10%" class="imgcatolica" alt="Imagem" src="logo.png"></a>
+        </div>
+
+    <table class="TabelaForm">
+        <tr>
+            <td><h1><p>Formulario</p></h1></td>
+        </tr>
+
+        <tr>
+            <td class="colu1" style="background-color: rgb(230, 230, 230);">
+
+            <form>
+                <!--Nome e sobrenome-->
+                <label for="fname">Primeiro nome:</label><br>
+                <input type="text" id="iName" name="iname" placeholder="Digite seu nome"><br>
+                <label for="lname">Sobrenome:</label><br>
+                <input type="text" id="iName" name="iname" placeholder="Digite seu sobrenome"><br><br>
+            
+                <!--Informação S-->
+                <label for="fname">Informe seu sexo:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Masculino</label><br>
+                <input type="radio" id="female" name="genfer" value="female">
+                <label for="female">Feminino</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Outro</label><br><br>
+
+                <!--Informação EC-->
+                <label for="fname">Estado civil:</label><br>
+                <input type="radio" id="casado" name="gender" value="casado">
+                <label for="casado">Casado</label><br>
+                <input type="radio" id="enrolado" name="gender" value="enrolado">
+                <label for="enrodalo">Enrolado</label><br>
+                <input type="radio" id="solteiro" name="gender" value="solteiro">
+                <label for="solteiro">Solteiro</label><br><br>
+
+                <!--Informações sobre intolerâncias-->
+                <label for="fname">Intolerâncias</label><br>
+                <p>Você possui alguma intolerância ?.</p>
+                <input type="checkbox" id="lactose" name="gender" value="Intolerância à lactose">
+                <label for="lactose">Intolerância à lactose</label><br>
+                <input type="checkbox" id="glúten" name="gender" value="intolerância a glúten">
+                <label for="glúten">Intolerância a glúten</label><br>
+                <input type="checkbox" id="os dois" name="gender" value="Intolerância aos dois">
+                <label for="os dois">Intolerância aos dois</label><br>
+                <input type="checkbox" id="nem um" name="gender" value="Nenhuma intolerância">
+                <label for="nem uma">Nenhuma intolerância</label><br><br>
+
+                <!--Curriculo-->
+                <label for="iArquivo">Curriculo</label><br>
+                <input type="file" id="iArquivo"><br><br>
+                
+                <!--Cor-->
+                <label for="icolor">Seleciona uma cor</label>
+                <input type="color" id="iColor"><br><br>
+
+                <!--Data-->
+                <label for="date">Selecione uma data</label>
+                <input type="date" id="iDate"><br><br>
+
+                <!--Email-->
+                <label for="email">Seu indereço de email</label>
+                <input type="text" id="iName" name="iemail" placeholder="Digite seu email"><br><br>
+
+                <!--Número-->
+                <label for="numero">Selecione um numero</label>
+                <input type="number" id="iNumber" name="inumber"><br><br>
+
+
+                <input type="submit" value="Enviar">
+
+
+            </form>
+            <p>Se você clicar no botão "Enviar", os dados de formulário serão enviados para uma página chamada "/action_page.php".</p>
+            </td>
+        </tr>
+
+
+        </table>
+
+
+    </body>
+
+</html>

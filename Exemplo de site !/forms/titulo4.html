@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+    <head>
+        <title> titulo </title>
+        <meta charset="UTF-8">
+
+    </head>
+
+    <body>
+        
+        <p>A linha abaixo mostra o valor atribuido para o atribuido innerHTML para o ID "demo"</p>
+        <p id="demo"></p>
+        <script type="text/javascript">
+            
+            document.getElementById("demo").innerHTML = "Ola mundo";
+ 
+        </script>
+
+        <p>As linhas abaixo mostram o estilo atribuido para o atributo style para ID "p2"</p>
+        <p id="p1">Hello World! sem estilização</p>
+        <p id="p2">Hello World! com estilização</p>
+
+        <script>
+        
+            document.getElementById("p2").style.color = "blue";
+            document.getElementById("p2").style.fontFamily = "Arial";
+            document.getElementById("p2").style.fontSize = "Larger";
+
+        </script>
+    </body>
+
+</html>

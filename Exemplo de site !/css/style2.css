@@ -1,0 +1,43 @@
+body{
+    font-weight: lighter;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.cabeçalho{
+    width: 100%; 
+    background-color: #9b1536;
+    height: auto;
+}
+
+.imgcatolica{
+    padding-left: 9%;
+    filter:brightness(0) invert(1);
+}
+
+.img3{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px solid rgb(231, 231, 231);
+    box-shadow: 5px 5px 5px gray;
+}
+
+.Tabelao{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.colu1{
+    padding-left: 5%;
+    width: 50%;
+    background-color: rgb(231, 231, 231);
+}
+
+.colu2{
+    width: 50%;
+}

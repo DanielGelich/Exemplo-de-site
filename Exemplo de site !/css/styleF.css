@@ -1,0 +1,29 @@
+.body{
+    font-weight: lighter;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabeçalho2{
+    width: 100%; 
+    background-color: #9b1536;
+    height: auto;
+}
+
+.imgcatolica{
+    filter:brightness(0) invert(1);
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.TabelaForm{
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.colu1{
+    padding-left: 5%;
+    width: 50%;
+}
